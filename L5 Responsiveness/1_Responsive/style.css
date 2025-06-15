@@ -1,0 +1,33 @@
+.container{
+    border: 1px solid black;
+}
+.card{
+    height: 400px;
+    width: 400px;
+    border: 1px solid red;
+    margin: 2px;
+}
+@media screen and (max-width:769px) {
+    .card:nth-child(odd) {
+    background-color: blue;
+    }
+    .card:nth-child(even) {
+        background-color: black;
+    }
+}
+@media screen and (min-width:769px) and (max-width:1280px) {
+    .card:nth-child(odd) {
+    background-color: red;
+    }
+    .card:nth-child(even) {
+        background-color: wheat;
+    }
+}
+@media screen and (min-width:1280px) {
+    .card:nth-child(odd) {
+        background-color: violet;
+    }
+    .card:nth-child(even) {
+        background-color: brown;
+    }
+}
