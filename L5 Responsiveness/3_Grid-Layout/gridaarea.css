@@ -2,8 +2,8 @@
     display: grid;
     height: 300px;
     border: 1px solid black;
-    grid-template-columns: repeat(3,1fr);
-    grid-template-rows: repeat(4,1fr);
+    grid-template-columns: repeat(4,1fr);
+    grid-template-rows: repeat(3,1fr);
     grid-template-areas: 
     "a a b b"
     "a a b b"
@@ -11,15 +11,15 @@
 }
 .item-1{
     grid-area: a;
-    background-color: red;
+    background-color: rgb(248, 151, 167);
 }
 .item-2{
     grid-area: b;
-    background-color: blue;
+    background-color: rgb(0, 115, 255);
 }
 .item-3{
     grid-area: c;
-    background-color: green;
+    background-color: rgb(51, 180, 51);
 }
 .item-4{
     grid-area: d;
